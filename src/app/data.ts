@@ -6,6 +6,9 @@ export interface Product {
   description: string;
 }
 
+
+// ELEMENT_DATA - kintamojo pavadinimas
+// Product[] - kintamojo tipas
 export const ELEMENT_DATA: Product[] = [
   { id: 1, photo: 'https://images.kaina24.lt/43/63/iphone-13-128gb.jpg', name: 'Iphone 13', price: 1599, description: "Apple's new iPhone isn't radically different, but that's part of its charm" },
   { id: 2, photo: 'https://images.kaina24.lt/43/14/samsung-galaxy-s21-128gb-2.jpg', name: 'Samsung s21', price: 699, description: 'Top-of-the-line Android smartphone' },
