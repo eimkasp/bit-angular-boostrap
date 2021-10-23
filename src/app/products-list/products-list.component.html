@@ -1,1 +1,26 @@
-<p>products-list works!</p>
+<!-- Parent/Tevinis komponentas -->
+<div class="row mb-3">
+  <div class="col-12">
+    <h1>Produktai</h1>
+
+  </div>
+  <div class="col-sm-4" *ngFor='let product of products'>
+    <!-- Child/Vaikinis komponentas -->
+    <app-product-card></app-product-card>
+    <!-- <div class="card mb-3 product-card">
+      <img src="{{ product.photo }}" class="card-img-top" alt="{{ product.name }}" />
+      <div class="card-body">
+        <h5 class="card-title">
+          {{ product.name }}
+        </h5>
+        <p class="card-text">
+          {{ product.description }}
+        </p>
+        <a href="#!" class="btn btn-primary">
+          Peržiūrėti  <i class="ms-1 fas fa-eye"></i>
+        </a>
+      </div>
+    </div> -->
+    <!-- Toliau sukursime nauja <app-product-card> komponenta, vieno produkto korteles atvaizdavimui -->
+  </div>
+</div>

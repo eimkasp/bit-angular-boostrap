@@ -23,6 +23,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     HeaderComponent,
     FooterComponent,
     ProductsListComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
