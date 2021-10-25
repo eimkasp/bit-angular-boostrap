@@ -20,5 +20,4 @@ export const ELEMENT_DATA: Product[] = [
   { id: 55, photo: 'https://images.kaina24.lt/43/74/google-pixel-4a.jpg', name: 'Google Pixel 4A', price: 485, description: '' },
   { id: 10, photo: 'https://images.kaina24.lt/43/70/apple-iphone-12-pro-max-128gb.jpg', name: 'iPhone 12 Pro Max', price: 1099, description: 'The all-around best phone' },
   { id: 11, photo: 'https://images.kaina24.lt/43/63/samsung-galaxy-s20-fe.jpg', name: 'Samsung Galaxy S20 FE', price: 650, description: '' },
-
 ];
